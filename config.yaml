@@ -1,0 +1,29 @@
+scoring:
+  bathrooms:
+    max_bathrooms: 2
+    min_bathrooms: 2
+    weight: 4
+  has_garden:
+    value: true
+    weight: 6
+  notify_at: 75
+  work_locations:
+    time_to_location_in_minutes: 50
+    locations:
+    - N1C 4BE
+    - EC1M 4AR
+    weight: 4
+search_fields:
+  areas:
+    radius: 6
+    seed_locations:
+    - NW105BU
+  bedrooms:
+    max_bedrooms: 3
+    min_bedrooms: 2
+    weight: 4
+  price:
+    max_price: 2500
+    min_price: 1500
+    sweet_spot: 2200
+    weight: 5
